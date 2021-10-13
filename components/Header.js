@@ -16,7 +16,7 @@ function Header() {
                 </a>
                 <a className="header-link group">
                     <PlusIcon className="h-4" />
-                    <span className="span">Watchlist</span>
+                    <span className="span">Watch-list</span>
                 </a>
                 <a className="header-link group">
                     <StarIcon className="h-4" />
