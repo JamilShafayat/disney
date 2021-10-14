@@ -1,4 +1,5 @@
 import { HomeIcon, PlusIcon, SearchIcon, StarIcon } from '@heroicons/react/solid'
+import { signIn } from 'next-auth/client'
 import Image from 'next/image'
 
 function Header() {
@@ -31,7 +32,7 @@ function Header() {
                     <span className="span">Series</span>
                 </a>
             </div>
-            <button className="ml-auto uppercase border px-4 py-1.5 rounded font-medium tracking-wide hover:bg-white hover:text-black transition duration-200">Login</button>
+            <button className="ml-auto uppercase border px-4 py-1.5 rounded font-medium tracking-wide hover:bg-white hover:text-black transition duration-200" onClick={signIn}>Login</button>
         </div>
     )
 }
